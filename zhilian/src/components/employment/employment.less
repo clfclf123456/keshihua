@@ -1,0 +1,40 @@
+.employment {
+  height: 100%;
+  padding-right: 20px;
+}
+.name {
+  font-size: 40px;
+  padding: 20px 0;
+}
+.charts {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40%;
+  & > div {
+    width: 49%;
+    height: 100%;
+    border: 1px solid #DCDFE6;
+    border-radius: 10px;
+    box-sizing: content-box;
+    position: relative;
+    & > div {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.charts .cityDic {
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  text-align: right;
+  right: 10px;
+  z-index: 1000;
+  top: 10px;
+  /deep/.el-select {
+    width: 100px;
+    height: 30px;
+  }
+}

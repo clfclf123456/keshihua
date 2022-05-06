@@ -1,0 +1,23 @@
+.baseMenu {
+  background: url("/public/bg_1.png");
+  height: 100%;
+  ul {
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    li {
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      color: #fff;
+      cursor: pointer;
+      &:hover {
+        background: rgba(0,0,0,0.4);
+      }
+    }
+    .active {
+      color: #3388bb;
+      background: rgba(0,0,0,0.4);
+    }
+  }
+}

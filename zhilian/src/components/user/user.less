@@ -1,0 +1,32 @@
+.user {
+  height: 100%;
+  padding-right: 20px;
+}
+.name {
+  font-size: 40px;
+  padding: 20px 0;
+}
+.userInfo {
+  height: 40%;
+  border: 1px solid #DCDFE6;
+  border-radius: 10px;
+  box-sizing: content-box;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.4);
+  padding: 40px;
+  & > div {
+    margin-bottom: 30px;
+  }
+}
+.userPassword {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.userPassword > div:nth-child(1){
+  width: 100px;
+  text-align: right;
+}
+/deep/.el-input__inner {
+  width: 215px;
+  //border: none;
+}

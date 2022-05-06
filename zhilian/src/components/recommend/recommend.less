@@ -1,0 +1,77 @@
+.recommend {
+  height: 100%;
+}
+.name {
+  font-size: 40px;
+  padding: 20px 0;
+}
+.table {
+  height: 86%;
+  margin-top: 20px;
+  overflow: auto;
+  padding-right: 20px
+}
+.url {
+  cursor: pointer;
+  &:hover {
+    color: #3a8ee6;
+  }
+}
+
+.tabs {
+  width: 50%;
+  margin: 0 auto;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    li {
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      &:hover {
+        color: #3a8ee6;
+      }
+    }
+
+    .active {
+      color: #3a8ee6;
+    }
+  }
+}
+.tabContent {
+  width: 100%;
+  //height: 80%;
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  .result {
+    width: 100%;
+    margin: 0 auto;
+    .font {
+      font-size: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      & > div {
+        padding: 20px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+        border-radius: 20px;
+      }
+    }
+    & > div {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .route {
+    margin: 20px auto;
+    width: 80%;
+    //height: 80%;
+    img {
+      width: 100%;
+    }
+  }
+}
